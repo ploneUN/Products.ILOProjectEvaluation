@@ -1,0 +1,123 @@
+# archgenxml generated POT File
+# unknown <unknown>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: ILOProjectEvaluation\n"
+"POT-Creation-Date: Sun Sep  5 22:20:14 2010\n"
+"PO-Revision-Date: Sun Sep  5 22:20:14 2010\n"
+"Last-Translator: unknown <unknown>\n"
+"Language-Team: unknown <unknown>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: latin1 utf-8\n"
+"Domain: ILOProjectEvaluation\n"
+
+#. Default: "Please select the ending Annual Evaluation Report (AER) Year"
+#: Project.py
+msgid "ILOProjectEvaluation_help_aer"
+msgstr ""
+
+#. Default: "Upload or update CP Evaluation file here."
+#: CountryProgrammeEvaluation.py
+msgid "ILOProjectEvaluation_help_cp_evaluation_file"
+msgstr ""
+
+#. Default: "Select donors for this project. Hold down CTRL to select multiple entries."
+#: Project.py
+msgid "ILOProjectEvaluation_help_donor"
+msgstr ""
+
+#. Default: "Year project evaluation was conducted"
+#: Project.py
+msgid "ILOProjectEvaluation_help_evaluation_year"
+msgstr ""
+
+#. Default: "Follow up status on recommendations. Completed (100%), Partially Completed (75%), Outstanding (>50%), No Action Planned"
+#: Project.py
+msgid "ILOProjectEvaluation_help_followup_status"
+msgstr ""
+
+#. Default: "eg. PAK/06/51/NET. One project code per line"
+#: Project.py
+msgid "ILOProjectEvaluation_help_project_code"
+msgstr ""
+
+#. Default: "Upload completed Project Evaluation spreadsheet as provided by ROAP"
+#: Project.py
+msgid "ILOProjectEvaluation_help_project_file"
+msgstr ""
+
+#. Default: "AER"
+#: Project.py
+msgid "ILOProjectEvaluation_label_aer"
+msgstr ""
+
+#. Default: "Country Programme Evaluation file"
+#: CountryProgrammeEvaluation.py
+msgid "ILOProjectEvaluation_label_cp_evaluation_file"
+msgstr ""
+
+#. Default: "Notes"
+#: CountryProgrammeEvaluation.py
+msgid "ILOProjectEvaluation_label_cp_evaluation_notes"
+msgstr ""
+
+#. Default: "Donor"
+#: Project.py
+msgid "ILOProjectEvaluation_label_donor"
+msgstr ""
+
+#. Default: "DWCP Evaluation Year"
+#: CountryProgrammeEvaluation.py
+msgid "ILOProjectEvaluation_label_dwcp_evaluation_year"
+msgstr ""
+
+#. Default: "Evaluation No."
+#: Project.py
+msgid "ILOProjectEvaluation_label_eval_no"
+msgstr ""
+
+#. Default: "Evaluation Year"
+#: Project.py
+msgid "ILOProjectEvaluation_label_evaluation_year"
+msgstr ""
+
+#. Default: "File"
+#: Project.py
+msgid "ILOProjectEvaluation_label_file"
+msgstr ""
+
+#. Default: "Followup Status"
+#: Project.py
+msgid "ILOProjectEvaluation_label_followup_status"
+msgstr ""
+
+#. Default: "Implementation Status"
+#: CountryProgrammeEvaluation.py
+msgid "ILOProjectEvaluation_label_implementation_status"
+msgstr ""
+
+#. Default: "No. of Recommendations"
+#: Project.py
+msgid "ILOProjectEvaluation_label_no_recommendations"
+msgstr ""
+
+#. Default: "Notes"
+#: Project.py
+msgid "ILOProjectEvaluation_label_proj_eval_notes"
+msgstr ""
+
+#. Default: "Project Code"
+#: Project.py
+msgid "ILOProjectEvaluation_label_project_code"
+msgstr ""
+
+#. Default: "Project Evaluation File"
+#: Project.py
+msgid "ILOProjectEvaluation_label_project_file"
+msgstr ""
+

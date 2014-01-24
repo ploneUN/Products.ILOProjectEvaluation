@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<import-steps>
+
+ 
+
+
+ <import-step 
+    id="ILOProjectEvaluation-Update-RoleMappings" 
+    handler="Products.ILOProjectEvaluation.setuphandlers.updateRoleMappings"
+    title="Update Workflow role mappings for ILOProjectEvaluation"
+    version="2010-11-23T17:13:32.621513">
+   <dependency step="ILOProjectEvaluation-QI-dependencies"/>
+   updates the workflow role mappings for ILOProjectEvaluation
+ </import-step>
+
+ <import-step 
+    id="ILOProjectEvaluation-postInstall" 
+    handler="Products.ILOProjectEvaluation.setuphandlers.postInstall"
+    title="manual coded post-install for ILOProjectEvaluation"
+    version="2010-11-23T17:13:32.621513">
+   <dependency step="ILOProjectEvaluation-QI-dependencies"/>
+   manual coded post-install for ILOProjectEvaluation
+ </import-step>
+
+<!-- ##code-section ADDITIONALSTEPS -->
+<!-- ##/code-section ADDITIONALSTEPS -->
+
+</import-steps>
+ 

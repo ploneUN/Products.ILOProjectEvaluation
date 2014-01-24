@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<atcttool>
+ <topic_indexes>
+  <!-- ##code-section indexes -->
+  <!-- ##/code-section indexes -->
+
+  <index name="getProject_code"
+     description="eg. PAK/06/51/NET. One project code per line"
+     enabled="True" 
+     friendlyName="Project Code">
+
+   <criteria>ATSelectionCriterion</criteria>
+
+  </index>
+
+  <index name="getEvaluation_year"
+     description="Year project evaluation was conducted"
+     enabled="True" 
+     friendlyName="Evaluation Year">
+
+   <criteria>ATSimpleIntCriterion</criteria>
+
+  </index>
+
+  <index name="getAer"
+     description="Please select the ending Annual Evaluation Report (AER) Year"
+     enabled="True" 
+     friendlyName="AER">
+
+   <criteria>ATSimpleIntCriterion</criteria>
+
+  </index>
+
+  <index name="getDonor"
+     description="Select donors for this project. Hold down CTRL to select multiple entries."
+     enabled="True" 
+     friendlyName="Donor">
+
+   <criteria>ATSelectionCriterion</criteria>
+
+  </index>
+
+  <index name="getFollowup_status"
+     description="Follow up status on recommendations. Completed (100%), Partially Completed (75%), Outstanding (>50%), No Action Planned"
+     enabled="True" 
+     friendlyName="Followup Status">
+
+   <criteria>ATSelectionCriterion</criteria>
+
+  </index>
+
+  <index name="getDwcp_evaluation_year"
+     description=""
+     enabled="True" 
+     friendlyName="DWCP Evaluation Year">
+
+   <criteria>ATSimpleIntCriterion</criteria>
+
+  </index>
+
+  <index name="getImplementation_status"
+     description=""
+     enabled="True" 
+     friendlyName="Implementation Status">
+
+   <criteria>ATSelectionCriterion</criteria>
+
+  </index>
+
+ </topic_indexes>
+ <topic_metadata>
+  <!-- ##code-section metadata -->
+  <!-- ##/code-section metadata -->
+
+  <metadata name="getEval_no" 
+     description=""
+     enabled="True" 
+     friendlyName="Evaluation No."/>
+
+  <metadata name="getProject_code" 
+     description="eg. PAK/06/51/NET. One project code per line"
+     enabled="True" 
+     friendlyName="Project Code"/>
+
+  <metadata name="getEvaluation_year" 
+     description="Year project evaluation was conducted"
+     enabled="True" 
+     friendlyName="Evaluation Year"/>
+
+  <metadata name="getAer" 
+     description="Please select the ending Annual Evaluation Report (AER) Year"
+     enabled="True" 
+     friendlyName="AER"/>
+
+  <metadata name="getDonor" 
+     description="Select donors for this project. Hold down CTRL to select multiple entries."
+     enabled="True" 
+     friendlyName="Donor"/>
+
+  <metadata name="getNo_recommendations" 
+     description=""
+     enabled="True" 
+     friendlyName="No. of Recommendations"/>
+
+  <metadata name="getFollowup_status" 
+     description="Follow up status on recommendations. Completed (100%), Partially Completed (75%), Outstanding (>50%), No Action Planned"
+     enabled="True" 
+     friendlyName="Followup Status"/>
+
+  <metadata name="getProj_eval_notes" 
+     description=""
+     enabled="True" 
+     friendlyName="Project Evaluation Notes"/>
+
+  <metadata name="getDwcp_evaluation_year" 
+     description=""
+     enabled="True" 
+     friendlyName="DWCP Evaluation Year"/>
+
+  <metadata name="getImplementation_status" 
+     description=""
+     enabled="True" 
+     friendlyName="Implementation Status"/>
+
+  <metadata name="getCp_evaluation_notes" 
+     description=""
+     enabled="True" 
+     friendlyName="Country Programme Evaluation Notes"/>
+
+ </topic_metadata>
+</atcttool>

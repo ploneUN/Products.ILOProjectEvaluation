@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<object name="portal_catalog" meta_type="Plone Catalog Tool">
+  <index name="getProject_code" 
+         meta_type="KeywordIndex">
+    <indexed_attr value="getProject_code"/>
+  </index>
+  <index name="getEvaluation_year" 
+         meta_type="FieldIndex">
+    <indexed_attr value="getEvaluation_year"/>
+  </index>
+  <index name="getAer" 
+         meta_type="FieldIndex">
+    <indexed_attr value="getAer"/>
+  </index>
+  <index name="getDonor" 
+         meta_type="KeywordIndex">
+    <indexed_attr value="getDonor"/>
+  </index>
+  <index name="getFollowup_status" 
+         meta_type="FieldIndex">
+    <indexed_attr value="getFollowup_status"/>
+  </index>
+  <index name="getDwcp_evaluation_year" 
+         meta_type="FieldIndex">
+    <indexed_attr value="getDwcp_evaluation_year"/>
+  </index>
+  <index name="getImplementation_status" 
+         meta_type="FieldIndex">
+    <indexed_attr value="getImplementation_status"/>
+  </index>
+  <column value="getEval_no"/>
+  <column value="getProject_code"/>
+  <column value="getEvaluation_year"/>
+  <column value="getAer"/>
+  <column value="getDonor"/>
+  <column value="getNo_recommendations"/>
+  <column value="getFollowup_status"/>
+  <column value="getProj_eval_notes"/>
+  <column value="getDwcp_evaluation_year"/>
+  <column value="getImplementation_status"/>
+  <column value="getCp_evaluation_notes"/>
+<!-- ##code-section FOOT -->
+<!-- ##/code-section FOOT -->
+</object>
